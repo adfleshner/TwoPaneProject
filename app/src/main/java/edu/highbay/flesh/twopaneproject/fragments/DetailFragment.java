@@ -101,18 +101,4 @@ public class DetailFragment extends Fragment {
             }
         }
     }
-
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-//        Toolbar toolbar;
-//        if (isTablet) {
-//            toolbar = ((BaseDrawerActivity) getActivity()).getSecondaryToolbar();
-//        } else {
-//            toolbar = ((BaseDrawerActivity) getActivity()).getToolbar();
-//        }
-//        if (toolbar != null) {
-//            toolbar.getMenu().clear();
-//        }
-    }
 }

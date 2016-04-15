@@ -125,7 +125,6 @@ public class LeftFragment extends Fragment {
                     default:
                         //do nothing
                 }
-//                VeriformUtils.hideKeyBoard(new EditText(getContext()));
             }
         });
 
