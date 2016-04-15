@@ -54,8 +54,6 @@ public class HostActivity extends AppCompatActivity implements NavigationFragmen
     }
 
 
-
-
     private void init() {
         myToolbar = (Toolbar) findViewById(R.id.toolbar);
         secondaryToolbar = (Toolbar) findViewById(R.id.secondaryToolbar);
@@ -99,11 +97,7 @@ public class HostActivity extends AppCompatActivity implements NavigationFragmen
     @Override
     public void onListItemSelected(String StringAtPosition) {
         if (isTablet) {
-            if (StringAtPosition.contains("8")) {
-                showFragment(DetailFragment.newInstance(StringAtPosition), true, true, DetailFragment.class.getSimpleName());
-            } else {
-                showFragment(DetailFragment.newInstance(StringAtPosition), false, true, DetailFragment.class.getSimpleName());
-            }
+            showFragment(DetailFragment.newInstance(StringAtPosition), false, true, DetailFragment.class.getSimpleName());
         } else {
             showFragment(DetailFragment.newInstance(StringAtPosition), true, true, DetailFragment.class.getSimpleName());
         }
