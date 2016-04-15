@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="isTablet">false</bool>
+    <bool name="isPortrait">true</bool>
+
+    <integer name="weightsum">1</integer>
+    <integer name="weight_left">1</integer>
+    <integer name="weight_right">0</integer>
+</resources>
