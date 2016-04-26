@@ -15,3 +15,5 @@ in the project to create the different views you see in the project.
 
 #Tablet
 ![ProfileImage](https://raw.githubusercontent.com/adfleshner/TwoPaneProject/master/imgs/twopane_tablet2.gif)
+
+Sorry About the colors. Not Really sure how they can to be those colors but I could see a difference sooooo I didnt change them. This is working off of one code base. It fairly well.
